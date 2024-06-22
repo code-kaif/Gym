@@ -13,7 +13,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/send/mail",
+        "https://gym-web-w3sa.onrender.com/send/mail",
         {
           name,
           email,
